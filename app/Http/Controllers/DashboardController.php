@@ -13,9 +13,8 @@ class DashboardController extends Controller
      */
     public function index()
     {
-        return view('dashboards.list', [
-            "title"         => "Dashboard",
-            "main"          => "Jakmall"
+        return view('admin.dashboards.index', [
+            "title"         => "Dashboard"
         ]);
     }
 
